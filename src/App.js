@@ -12,11 +12,6 @@ function App() {
         <Navbar />
         <Home />
         <Footer />
-
-        <Routes>
-          <Route path="/" exact Component={Home} />
-          <Route path="/" exact Component={Categories} />
-        </Routes>
       </Router>
     </div>
   );
