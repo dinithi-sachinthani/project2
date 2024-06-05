@@ -1,20 +1,20 @@
 import React from "react";
-import Cakeitems from "../Components/Cakeitems";
+import { Link } from "react-router-dom";
+import logo from "../assets/logo.jpg";
+import "../styles/Home.css";
 
 function Home() {
   return (
-  <div className="home">
-    <div className="headerContainer">
-      <h1> Anything with zee</h1>
-      <p>Cake and Gift Hampers </p>
-      <div className="ckaecards">
-        
+    <div className="home" style={{ backgroundImage: `url(${logo})` }}>
+      <div className="headerContainer">
+        <h1> Anything With Zee </h1>
+        <p> Cake TO FIT ANY TASTE</p>
+        <Link to="/categories">
+          <button> ORDER NOW </button>
+        </Link>
       </div>
-
     </div>
-
-  </div>
-  )
+  );
 }
 
 export default Home;

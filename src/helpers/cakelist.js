@@ -11,7 +11,27 @@ export const cakelist = [
   },
   {
     name: "Birthday Cake",
+    image: cake2,
+    price: 1000,
+  },
+  {
+    name: "Birthday Cake",
+    image: cake3,
+    price: 1000,
+  },
+  {
+    name: "Birthday Cake",
     image: cake1,
+    price: 1000,
+  },
+  {
+    name: "Birthday Cake",
+    image: cake2,
+    price: 1000,
+  },
+  {
+    name: "Birthday Cake",
+    image: cake3,
     price: 1000,
   },
 ];
